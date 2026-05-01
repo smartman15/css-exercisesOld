@@ -6,6 +6,9 @@ html {
 
 .container {
   text-align: center;
+  display: grid;
+  grid-template-columns: clamp(50px, 1fr, 500px) clamp(50px, 3fr, 500px);
+  grid-template-rows: 1fr 1fr 5fr 1fr;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
