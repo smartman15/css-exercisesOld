@@ -7,8 +7,9 @@ html {
 .container {
   text-align: center;
   display: grid;
-  grid-template-columns: clamp(50px, 1fr, 500px) clamp(50px, 3fr, 500px);
-  grid-template-rows: 1fr 1fr 5fr 1fr;
+  gap: 15px;
+  grid-template-columns: clamp(15%, 1fr, 100%) clamp(15%, 3fr, 100%);
+  grid-template-rows: 1fr 1fr clamp(15%, 5fr, 100%) 1fr;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
