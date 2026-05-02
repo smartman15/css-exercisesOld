@@ -20,7 +20,8 @@
 
 .header {
   background-color: #393f4d;
-  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 .nav ul,
@@ -110,5 +111,13 @@
 
 .nav,
 .article{
+  grid-column: 2 / span 1;
+}
+
+.logo{
+  grid-column: 1 / span 1;
+}
+
+.menu{
   grid-column: 2 / span 1;
 }
