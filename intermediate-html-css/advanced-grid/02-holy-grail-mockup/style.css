@@ -121,3 +121,8 @@
 .menu{
   grid-column: 2 / span 1;
 }
+
+.nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
