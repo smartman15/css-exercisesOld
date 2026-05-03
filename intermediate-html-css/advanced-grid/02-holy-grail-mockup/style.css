@@ -141,6 +141,10 @@ div.header {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.menu ul li{
+  width: fit-content;
+}
+
 .sidebar div{
   display: grid;
   align-items: center;
