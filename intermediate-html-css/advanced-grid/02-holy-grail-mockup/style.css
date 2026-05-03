@@ -139,6 +139,7 @@ div.header {
 .menu ul{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-left: 20%;
 }
 
 .menu ul li{
