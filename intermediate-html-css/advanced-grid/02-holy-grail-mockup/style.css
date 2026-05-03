@@ -18,11 +18,18 @@
   color: white;
 }
 
-.header {
+div.header {
   background-color: #393f4d;
   display: grid;
   grid-template-columns: 1fr 4fr;
   align-items: center;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header div{
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .nav ul,
@@ -137,4 +144,8 @@
 .sidebar div{
   display: grid;
   align-items: center;
+}
+
+.title{
+  margin-bottom: 15px;
 }
