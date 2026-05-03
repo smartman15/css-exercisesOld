@@ -133,3 +133,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+.sidebar div{
+  display: grid;
+  align-items: center;
+}
